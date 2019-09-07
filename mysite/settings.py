@@ -78,12 +78,12 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 DATABASES = {
     'default' : {
-        'ENGINE' : 'django.db.backends.oracle',
-        'NAME' : 'ORCL',
-        'USER' : 'baDcoder',
-        'PASSWORD' : '123',
+        'ENGINE' : 'django.db.backends.postgresql',
+        'NAME' : 'orcl',
+        'USER' : 'postgres',
+        'PASSWORD' : 'postgres',
         'HOST' : '127.0.0.1',
-        'PORT' : '1521',
+        'PORT' : '5432',
     }
 }
 
