@@ -1,6 +1,4 @@
-# Online Food Ordering
-
-This project was done as a part of undergraduate term project.
+# Online Food Shopping
 
 It was built using Django - 1.8 along with bootstrap and jquery in front end and oracle 11g with PL/SQL as database.
 
